@@ -3,7 +3,7 @@
 import httpretty
 import os
 import unittest
-import urlparse
+from urllib.parse import urlparse
 import ari
 import requests
 

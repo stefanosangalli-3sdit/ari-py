@@ -6,8 +6,7 @@
 """
 
 import ari.client
-import swaggerpy.http_client
-import urlparse
+from urllib.parse import urlparse
 
 Client = client.Client
 

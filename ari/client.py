@@ -7,8 +7,7 @@
 
 import json
 import logging
-import urlparse
-import swaggerpy.client
+from urllib.parse import urlparse
 
 from ari.model import *
 
